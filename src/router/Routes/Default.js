@@ -4,7 +4,7 @@ const PreComponent = '<router-view/>';
 
 export default {
   path: '',
-  component: { template: PreComponent },  
+  component: { template: PreComponent },
   children: [
     {
       path: '/',
@@ -14,5 +14,5 @@ export default {
         title: 'Home Page',
       },
     },
-  ]
+  ],
 };

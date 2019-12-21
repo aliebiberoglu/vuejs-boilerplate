@@ -11,9 +11,9 @@
 export default {
   name: 'app',
   components: {
-    HelloWorld: () => import('./components/HelloWorld.vue')
-  }
-}
+    HelloWorld: () => import('./components/HelloWorld.vue'),
+  },
+};
 </script>
 
 <style>

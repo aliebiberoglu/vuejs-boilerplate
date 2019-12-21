@@ -12,6 +12,7 @@
       <li><router-link :to="{ name: 'login' }">Login Page</router-link></li>
       <li><router-link :to="{ name: 'signup' }">Sing Up Page</router-link></li>
       <li><router-link :to="{ name: 'product-list' }">Product Page</router-link></li>
+      <li><router-link :to="{ name: 'user-list' }">User Page</router-link></li>
     </ul>
   </div>
 </template>
@@ -20,8 +21,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 

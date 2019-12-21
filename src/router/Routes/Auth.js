@@ -5,7 +5,7 @@ const PreComponent = '<router-view/>';
 
 export default {
   path: '',
-  component: { template: PreComponent },  
+  component: { template: PreComponent },
   children: [
     {
       path: '/login',
@@ -22,5 +22,5 @@ export default {
         title: 'Sign UP Page',
       },
     },
-  ]
+  ],
 };

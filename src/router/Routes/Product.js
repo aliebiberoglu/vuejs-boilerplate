@@ -5,7 +5,7 @@ const PreComponent = '<router-view/>';
 
 export default {
   path: '',
-  component: { template: PreComponent },  
+  component: { template: PreComponent },
   redirect: {
     name: 'project-list',
   },
@@ -25,5 +25,5 @@ export default {
         title: 'Products',
       },
     },
-  ]
+  ],
 };
