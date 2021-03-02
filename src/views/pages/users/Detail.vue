@@ -82,7 +82,6 @@ export default {
   // ## Created
   // -----------------------------------------------------------------------------------------------
   created() {
-    console.log(this.$route);
     this.getUserDetail(this.$route.params.id);
   },
 
